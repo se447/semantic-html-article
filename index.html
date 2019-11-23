@@ -7,9 +7,10 @@
   <title>Document</title>
 </head>
 <body>
+<div> <!--container div-->
   <header>
     <!-- name of web page -->
-    <p>Historical News</p>
+    <h1>Historical News</h1>
 
     <!-- nav bar -->
     <nav>
@@ -19,12 +20,43 @@
     </nav>
   </header>
 
+  <!-- beginning of article -->
   <article>
+    <!-- header with title of article and author info -->
+    <header>
+      <h1>Engineers put Leonardo da Vinci’s bridge design to the test</h1>
+      <h2>Proposed bridge would have been the world’s longest at the time; new analysis shows it would have worked.</h2>
+      <p>By David L. Chandler <time datetime='2019-10-9 17:00-06:00'>October 9, 2019</time></p>
+    </header>
 
+    <section>
+      <figure>
+        <img src="img/MIT-Leonardos-Bridge-02.jpg" alt="Leonardo Da Vinci's bridge sketch">
+        <figcaption>Sketch by Leonardo da Vinci showing design of bridge</figcaption>
+      </figure>
+
+        <p>In 1502 A.D., Sultan Bayezid II sent out the Renaissance equivalent of a government RFP (request for proposals), seeking a design for a bridge to connect Istanbul with its neighbor city Galata. Leonardo da Vinci, already a well-known artist and inventor, came up with a novel bridge design that he described in a letter to the Sultan and sketched in a small drawing in his notebook.</p>
+
+        <p>He didn’t get the job. But 500 years after his death, the design for what would have been the world’s longest bridge span of its time intrigued researchers at MIT, who wondered how thought-through Leonardo’s concept was and whether it really would have worked.</p>
+        
+        <p>Spoiler alert: Leonardo knew what he was doing.</p>
+
+        <!-- advertisement -->
+        <aside class='advert'>
+          <img src="some-advertisement.jpeg" alt="Advertisement photo">
+        </aside>
+    </section>
+
+    <footer>
+      <p>This article was actually written by MIT News, but I wanted to practice my semantic HTML.</p>
+
+      <address>Please forward all questions to <a href="mailto:someone@mit.edu">Historical News Help Center</a></address>
+    </footer>
   </article>
 
   <footer>
-    
+    <p>Copyright &copy; Historical News, 2019</p>
   </footer>
+</div> <!-- end container div -->
 </body>
 </html>
